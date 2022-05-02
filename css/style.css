@@ -94,11 +94,15 @@ li a{
 
 .product-img{
     width: 100%;
+    position: relative;
 }
 
 .hover-img{
     display: none;
     width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
     
 }
 
