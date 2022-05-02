@@ -18,11 +18,15 @@ body{
     display: flex;
 }
 
+.white{
+    color: white;
+}
+
 /* HEADER */
 header{
     background-color: #ff6900;
     height: 80px;
-    color: white;
+   
 }
    
 nav{
@@ -74,6 +78,9 @@ li a{
 }
 
 /* MAIN */
+main{
+    padding-bottom: 50px;
+}
 
 .product-list{
     flex-wrap: wrap;
@@ -137,5 +144,25 @@ li a{
 
 .product:hover .hover-img{
     display: block;
+    
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+
+.società{
+    padding: 10px 0;
+}
+
+.space-social{
+    justify-content: space-between;
+}
+
+.social span{
+    padding-right: 10px;
     
 }
