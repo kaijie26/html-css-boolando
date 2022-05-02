@@ -26,6 +26,11 @@ body{
 header{
     background-color: #ff6900;
     height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
    
 }
    
@@ -80,6 +85,7 @@ li a{
 /* MAIN */
 main{
     padding-bottom: 50px;
+    margin-top: 90px;
 }
 
 .product-list{
